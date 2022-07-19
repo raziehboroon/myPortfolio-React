@@ -2,7 +2,34 @@ import "./Contact.scss";
 import React from "react";
 
 const Contact = () => {
-  return <div>contact</div>;
+  return (
+    <section className="contact">
+      <div className="contact-center">
+        <div className="title">
+          <h2>let's get in touch</h2>
+          <div className="title-underline"></div>
+        </div>
+        <div
+          className="contact-container"
+          data-aos="fade"
+          data-aos-duration="500"
+          data-aos-delay="50"
+        >
+          <h4>
+            If you are looking to get ahold of me, you can send me an email at
+            <a href="mailto:razieh.boroon@gmail.com" target="noopener">
+              <span>
+                razieh.boroon<i className="fas fa-at"></i>gmail.com
+              </span>
+            </a>
+            <br />
+            <br />
+            can also reach me through this number<span> +98-***-****</span>
+          </h4>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Contact;

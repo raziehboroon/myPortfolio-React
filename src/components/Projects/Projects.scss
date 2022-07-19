@@ -1,1 +1,19 @@
-@import "../../App.css";
+@import "../../App.scss";
+.projects {
+  /* padding-top: 0; */
+  /* min-height: 100vh; */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 776px) {
+  .card-container {
+    flex-direction: row;
+  }
+}
