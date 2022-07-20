@@ -6,22 +6,19 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import { useEffect } from "react";
-import AOS from "aos";
+import initFontAwesome from "./helper/initFontAwesome";
+initFontAwesome();
 
 function App() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<Home />} />
+        <Route path="about" element={<About height={true} />} />
+        <Route path="projects" element={<Projects height={true} />} />
+        <Route path="contact" element={<Contact height={true} />} />
+        <Route path="*" element={<Home height={true} />} />
       </Routes>
       <Footer />
     </>

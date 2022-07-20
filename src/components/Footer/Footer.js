@@ -1,22 +1,23 @@
 import "./Footer.scss";
 import React from "react";
 import { getDate } from "../../helper/functions";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
     <footer>
       <div className="contact-links">
         <a href="https://www.linkedin.com/in/razieh-boroon/" target="noopener">
-          <i className="fab fa-linkedin"></i>
+          <FontAwesomeIcon icon={["fab", "linkedin"]} />
         </a>
         <a href="https://github.com/raziehboroon" target="noopener">
-          <i className="fab fa-github"></i>
+          <FontAwesomeIcon icon={["fab", "github"]} />
         </a>
         <a href="https://twitter.com/raziehboroon" target="noopener">
-          <i className="fab fa-twitter"></i>
+          <FontAwesomeIcon icon={["fab", "twitter"]} />
         </a>
         <a href="mailto:razieh.boroon@gmail.com" target="noopener">
-          <i className="fas fa-envelope"></i>
+          <FontAwesomeIcon icon={["fas", "envelope"]} />
         </a>
       </div>
       <h4>

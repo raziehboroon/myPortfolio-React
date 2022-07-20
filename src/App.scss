@@ -74,9 +74,9 @@ Global Styles
 }
 
 body {
+  min-height: 100vh !important; //not working
   font-family: var(--ff-primary);
   color: var(--clr-grey-1);
-  background-color: var(--clr-white);
   line-height: 1.5rem;
   font-size: 0.875rem;
   overflow-x: hidden;
@@ -148,10 +148,15 @@ p {
 }
 
 .section {
-  /* min-height: 100vh; */
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem 1rem 3rem 1rem;
+}
+.max-height {
+  min-height: calc(100vh - 13rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -166,46 +171,6 @@ p {
   /* margin: 0 auto 1.25rem auto; */
   text-align: center;
 }
-// .profile-img {
-//   display: none;
-//   position: relative;
-//   margin: 3rem 1rem;
-//   max-width: 20rem;
-//   max-height: 25rem;
-// }
-// .profile-img img {
-//   border-radius: 0.2rem;
-// }
-
-// .profile-img::before {
-//   content: "";
-//   position: absolute;
-//   bottom: -12%;
-//   right: -15%;
-//   width: 100%;
-//   height: 100%;
-//   border: 3px solid var(--clr-primary-2);
-//   /* background: linear-gradient(to bottom right, var(--clr-primary-5), #222); */
-//   border-radius: 0.3rem;
-//   z-index: -10;
-//   transition: all 0.5s ease-in-out;
-// }
-
-// .profile-img:hover::before {
-//   bottom: -10px;
-//   right: -12px;
-// }
-
-// .profile-img.about-img::before {
-//   bottom: -10%;
-//   left: -10%;
-// }
-
-// .profile-img.about-img:hover::before {
-//   bottom: -12px;
-//   left: -12px;
-// }
-
 .title-underline {
   height: 0.3rem;
   width: 5rem;
@@ -217,14 +182,12 @@ p {
 .icons a {
   color: var(--clr-grey-1);
   transition: color 0.3s ease-in-out;
-}
-
-.icons a:hover {
-  color: var(--clr-primary-4);
-}
-
-.icons a:active {
-  border: 0.2rem dashed var(--clr-primary-4);
+  &:hover {
+    color: var(--clr-primary-4);
+  }
+  &:active {
+    border: 0.2rem dashed var(--clr-primary-4);
+  }
 }
 
 @media screen and (min-width: 776px) {

@@ -3,9 +3,9 @@ import React from "react";
 import { data } from "../../data.js";
 import SingleProject from "../SingleProject/SingleProject";
 
-const Projects = () => {
+const Projects = ({ height }) => {
   return (
-    <section className="projects">
+    <section className={`projects ${height && "max-height"}`}>
       <div className="section">
         <div className="title">
           <h2>Project</h2>

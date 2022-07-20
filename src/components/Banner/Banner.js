@@ -1,5 +1,7 @@
 import "./Banner.scss";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ImageFrame from "../ImageFrame/ImageFrame";
 
 const Banner = () => {
   return (
@@ -19,23 +21,28 @@ const Banner = () => {
               href="https://www.linkedin.com/in/razieh-boroon/"
               target="noopener"
             >
-              <i className="fab fa-linkedin"> </i>
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
             </a>
             <a href="https://github.com/raziehboroon" target="noopener">
-              <i className="fab fa-github"></i>
+              <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
             <a href="https://twitter.com/raziehboroon" target="noopener">
-              <i className="fab fa-twitter"></i>
+              <FontAwesomeIcon icon={["fab", "twitter"]} />
             </a>
           </div>
         </div>
 
-        <div className="profile-img">
+        {/* <div className="profile-img">
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/RaziehBoroon.jpg`}
             alt="myPicture"
           />
-        </div>
+        </div> */}
+        <ImageFrame
+          src={`${process.env.PUBLIC_URL}/assets/images/RaziehBoroon.jpg`}
+          name="myPicture"
+          alignment={true}
+        />
       </div>
     </header>
   );

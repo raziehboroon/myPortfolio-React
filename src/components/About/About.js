@@ -1,7 +1,10 @@
 import "./About.scss";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ImageFrame from "../ImageFrame/ImageFrame";
 
-const About = () => {
+const About = ({ height }) => {
+  // const height = props.height;
   const skills = [
     "HTML5",
     "CSS3",
@@ -13,10 +16,10 @@ const About = () => {
     "Git",
   ];
   return (
-    <section className="about">
+    <section className={`about ${height && "max-height"}`}>
       <div className="section">
         <div className="about-content">
-          <div
+          {/* <div
             className="profile-img about-img"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -26,8 +29,12 @@ const About = () => {
               src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
               alt="keyboard"
             />
-          </div>
-
+          </div> */}
+          <ImageFrame
+            src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
+            name="keyboard"
+            alignment={false}
+          />
           <div className="about-text">
             {/* title */}
             <div className="title">
@@ -46,7 +53,10 @@ const About = () => {
             >
               {skills.map((skill, index) => (
                 <li key={index}>
-                  <i className="fas fa-caret-right"></i>
+                  <FontAwesomeIcon
+                    icon={["fas", "caret-right"]}
+                    className="icon"
+                  />
                   {skill}
                 </li>
               ))}

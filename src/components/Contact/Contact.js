@@ -1,9 +1,10 @@
 import "./Contact.scss";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Contact = () => {
+const Contact = ({ height }) => {
   return (
-    <section className="contact">
+    <section className={`contact ${height && "max-height"}`}>
       <div className="contact-center">
         <div className="title">
           <h2>let's get in touch</h2>
@@ -19,7 +20,10 @@ const Contact = () => {
             If you are looking to get ahold of me, you can send me an email at
             <a href="mailto:razieh.boroon@gmail.com" target="noopener">
               <span>
-                razieh.boroon<i className="fas fa-at"></i>gmail.com
+                {" "}
+                Razieh.Boroon
+                <FontAwesomeIcon icon={["fas", "at"]} />
+                gmail.com
               </span>
             </a>
             <br />

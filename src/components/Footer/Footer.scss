@@ -1,6 +1,6 @@
 @import "../../App.scss";
 footer {
-  min-height: 20vh;
+  min-height: 8rem;
   background: var(--clr-grey-1);
   color: var(--clr-grey-6);
   display: flex;
@@ -9,19 +9,23 @@ footer {
   justify-content: center;
   text-align: center;
 }
-.contact-links i {
+.contact-links {
+  padding: 1rem 0 0.5rem;
+}
+.contact-links a {
   color: var(--clr-white);
   font-size: 2rem;
   margin: 1rem;
   transition: color 0.3s ease-in-out;
 }
 
-.contact-links i:hover {
+.contact-links a:hover {
   color: var(--clr-primary-5);
 }
 
 footer h4 {
   letter-spacing: 0.1rem;
+  padding: 0.5rem 0.5rem 1rem;
 }
 .footer-name {
   color: var(--clr-primary-5);
