@@ -15,11 +15,14 @@ const SingleProject = ({ image, name, description, git, netlify }) => {
           <h5>{description}</h5>
         </div>
         <div className="project-links icons">
-          <a href={git} target="noopener">
+          <a href={git} target="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
           <a href={netlify}>
-            <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
+            <FontAwesomeIcon
+              icon={["fas", "external-link-alt"]}
+              target="noopener noreferrer"
+            />
           </a>
         </div>
       </div>

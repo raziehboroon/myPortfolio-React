@@ -10,13 +10,13 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/razieh-boroon/" target="noopener">
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
         </a>
-        <a href="https://github.com/raziehboroon" target="noopener">
+        <a href="https://github.com/raziehboroon" target="noopener noreferrer">
           <FontAwesomeIcon icon={["fab", "github"]} />
         </a>
-        <a href="https://twitter.com/raziehboroon" target="noopener">
+        <a href="https://twitter.com/raziehboroon" target="noopener noreferrer">
           <FontAwesomeIcon icon={["fab", "twitter"]} />
         </a>
-        <a href="mailto:razieh.boroon@gmail.com" target="noopener">
+        <a href="mailto:razieh.boroon@gmail.com" target="noopener noreferrer">
           <FontAwesomeIcon icon={["fas", "envelope"]} />
         </a>
       </div>

@@ -4,7 +4,7 @@ export const data = [
     image: "/assets/images/Architecture.jpg",
     name: "Architecture Portfolio",
     description:
-      "An ongoing project of developing front end of an architecture portfolio app ",
+      "Comming Soon -A bilingual Front End of an architecture portfolio app developed by React.js and taking advantage of SASS, Context, react router dom, material-ui, i18next, styled-components, with static experimental data.",
     git: "https://github.com/raziehboroon",
     netlify: "https://www.google.com",
   },
@@ -13,7 +13,7 @@ export const data = [
     image: "/assets/images/Store.png",
     name: "Store",
     description:
-      "An online shop app developed by React.js and taking advatage of SASS, reducer, context, react router dom, prop types,paypal sandbox, axios and Fakesstore.com API. By the way, this project has a mobile first design.",
+      "An online shop app developed by React.js and taking advatage of SASS, reducer, context, react router dom, prop types, paypal sandbox, axios and Fakesstore.com API. By the way, this app has mobile first design.",
     git: "https://github.com/raziehboroon/store-project.git",
     netlify: "https://rboroon-store.netlify.app/",
   },

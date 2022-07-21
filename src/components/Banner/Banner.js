@@ -14,14 +14,20 @@ const Banner = () => {
           <div className="social-links icons">
             <a
               href="https://www.linkedin.com/in/razieh-boroon/"
-              target="noopener"
+              target="noopener noreferrer"
             >
               <FontAwesomeIcon icon={["fab", "linkedin"]} />
             </a>
-            <a href="https://github.com/raziehboroon" target="noopener">
+            <a
+              href="https://github.com/raziehboroon"
+              target="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
-            <a href="https://twitter.com/raziehboroon" target="noopener">
+            <a
+              href="https://twitter.com/raziehboroon"
+              target="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={["fab", "twitter"]} />
             </a>
           </div>
