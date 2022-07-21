@@ -21,8 +21,7 @@ const Footer = () => {
         </a>
       </div>
       <h4>
-        <i className="far fa-copyright"></i>
-        <span id="copyright-date">&copy;{getDate()}</span>
+        <span>&copy;{getDate()}</span>
         <span className="footer-name"> Razieh Boroon.</span> all rights reserved
       </h4>
     </footer>

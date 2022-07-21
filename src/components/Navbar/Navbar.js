@@ -1,6 +1,7 @@
 import "./Navbar.scss";
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { goToTop } from "../../helper/functions";
 
 const Navbar = () => {
   const [showDropDown, setShowDropDown] = useState(false);
@@ -21,7 +22,10 @@ const Navbar = () => {
       <div className="nav-center">
         <div
           className="nav-logo"
-          onClick={() => setShowDropDown(!showDropDown)}
+          onClick={() => {
+            setShowDropDown(false);
+            goToTop();
+          }}
         >
           <Link to="/">
             <img src="/apple-touch-icon.png" alt="logo" />

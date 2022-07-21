@@ -12,6 +12,10 @@
   justify-content: space-around;
 }
 
+.about-image {
+  display: none;
+}
+
 .about-text {
   padding-bottom: 3rem;
   flex: 0 1 60%;
@@ -32,5 +36,9 @@
 @media screen and (min-width: 776px) {
   .about-content {
     flex-direction: row;
+    margin: 2rem auto;
+  }
+  .about-image {
+    display: block;
   }
 }

@@ -1,16 +1,17 @@
 import "./ImageFrame.scss";
 import React from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 const ImageFrame = (props) => {
   // console.log(props.alignment === "left");
   return (
     <StyledFrame
-      // className="profile-img"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-delay="100"
+    // className="profile-img"
     >
-      <img src={props.src} alt={props.name} />
+      <img
+        src={props.src}
+        alt={props.name}
+        style={{ borderRadius: "0.2rem" }}
+      />
     </StyledFrame>
   );
 };
@@ -20,13 +21,18 @@ export default ImageFrame;
 const StyledFrame = styled.div`
   display: block;
   position: relative;
-  margin: 3rem 1rem;
-  max-width: 20rem;
-  max-height: 25rem;
+  margin: 1rem 2rem 1rem;
+  max-width: 10rem;
+  max-height: 15rem;
   z-index: 10;
+  @media screen and (min-width: 576px) {
+    max-width: 20rem;
+    max-height: 25rem;
+  }
   &:before {
     content: "";
     position: absolute;
+    right: -32px;
     bottom: -12%;
     width: 100%;
     height: 100%;
@@ -35,27 +41,10 @@ const StyledFrame = styled.div`
     border-radius: 0.3rem;
     z-index: -10;
     transition: all 0.5s ease-in-out;
-
-    ${(props) =>
-      props.alignment
-        ? css`
-            right: -15px;
-          `
-        : css`
-            left: -10px;
-          `}
   }
   &:hover:before {
     bottom: -10px;
-
-    ${(props) =>
-      props.alignment
-        ? css`
-            right: -32px;
-          `
-        : css`
-            left: -32px;
-          `}
+    right: -12px;
   }
 `;
 
@@ -80,3 +69,21 @@ const StyledFrame = styled.div`
 
 // ${(props) => props.alignment && `left: -10px`};
 // ${(props) => props.alignment && `left: -12px`};
+
+// ${(props) =>
+//   props.alignment
+//     ? css`
+//         right: -15px;
+//       `
+//     : css`
+//         left: -10px;
+//       `}
+
+//   ${(props) =>
+//     props.alignment
+//       ? css`
+//           right: -32px;
+//         `
+//       : css`
+//           left: -32px;
+//         `};

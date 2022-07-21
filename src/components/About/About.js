@@ -19,22 +19,17 @@ const About = ({ height }) => {
     <section className={`about ${height && "max-height"}`}>
       <div className="section">
         <div className="about-content">
-          {/* <div
-            className="profile-img about-img"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="100"
-          >
-            <img
+          <div className="about-image">
+            {/* <img
               src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
               alt="keyboard"
+            /> */}
+            <ImageFrame
+              src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
+              name="keyboard"
+              alignment={false}
             />
-          </div> */}
-          <ImageFrame
-            src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
-            name="keyboard"
-            alignment={false}
-          />
+          </div>
           <div className="about-text">
             {/* title */}
             <div className="title">

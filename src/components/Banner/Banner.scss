@@ -1,22 +1,24 @@
 @import "../../App.scss";
 .banner {
   background-color: var(--clr-primary-10);
-  min-height: calc(100% - 5rem);
+  height: calc(100% - 5rem);
   width: 100vw;
 }
 
 .banner-center {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-evenly;
   max-width: var(--max-width);
   margin: 0 auto;
-  min-height: 100vh;
+  height: calc(100vh - 5rem);
 }
 
 .banner-info {
+  margin: 1rem;
   h1 {
+    font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1.25rem;
   }
@@ -29,11 +31,11 @@
   }
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 576px) {
+  .banner-info h1 {
+    font-size: 3rem;
+  }
   .banner-center {
     flex-direction: row;
   }
-  // .profile-img {
-  //   display: block;
-  // }
 }

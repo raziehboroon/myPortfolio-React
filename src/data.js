@@ -4,7 +4,7 @@ export const data = [
     image: "/assets/images/Architecture.jpg",
     name: "Architecture Portfolio",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idneque exercitationem ad assumenda at quae, optio consectetur eligendi odit iure.",
+      "An ongoing project of developing front end of an architecture portfolio app ",
     git: "https://github.com/raziehboroon",
     netlify: "https://www.google.com",
   },
@@ -13,7 +13,7 @@ export const data = [
     image: "/assets/images/Store.png",
     name: "Store",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idneque exercitationem ad assumenda at quae, optio consectetur eligendi odit iure.",
+      "An online shop app developed by React.js and taking advatage of SASS, reducer, context, react router dom, prop types,paypal sandbox, axios and Fakesstore.com API. By the way, this project has a mobile first design.",
     git: "https://github.com/raziehboroon/store-project.git",
     netlify: "https://rboroon-store.netlify.app/",
   },
@@ -22,7 +22,7 @@ export const data = [
     image: "/assets/images/MovieDB.png",
     name: "MovieDB App",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Id neque exercitationem ad assumenda at quae, optio consectetur eligendi oditiure",
+      "A movie Database app developed by React.js and taking advatage of SASS, context, react router dom, material-ui, react alice carousel and themoviedb.org API.",
     git: "https://github.com/raziehboroon/react-moviedb",
     netlify: "https://rboroon-moviedb-app.netlify.app/",
   },
@@ -31,7 +31,7 @@ export const data = [
     image: "/assets/images/plantstore.png",
     name: "Plant Store",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Idneque exercitationem ad assumenda at quae, tio consectetur eligendi odit iure.",
+      "A plant store app developed by React.js and Bootstrap and taking advatage of SASS, react router dom, proptypes and static data.",
     git: "https://github.com/raziehboroon/react-plant-store",
     netlify: "https://rboroon-plant-store.netlify.app",
   },

@@ -6,12 +6,7 @@ import ImageFrame from "../ImageFrame/ImageFrame";
 const Banner = () => {
   return (
     <header className="banner">
-      <div
-        className="banner-center section"
-        data-aos="fade"
-        data-aos-duration="1000"
-        data-aos-delay="1000"
-      >
+      <div className="banner-center section">
         <div className="banner-info">
           <h4>Hi, my name is</h4>
           <h1>Razieh Boroon</h1>

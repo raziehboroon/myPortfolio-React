@@ -12,8 +12,9 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 300px) {
   .card-container {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }

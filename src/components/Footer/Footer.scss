@@ -8,27 +8,25 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+  h4 {
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 0.5rem 1rem;
+  }
+  .footer-name {
+    color: var(--clr-primary-5);
+  }
 }
 .contact-links {
   padding: 1rem 0 0.5rem;
-}
-.contact-links a {
-  color: var(--clr-white);
-  font-size: 2rem;
-  margin: 1rem;
-  transition: color 0.3s ease-in-out;
-}
-
-.contact-links a:hover {
-  color: var(--clr-primary-5);
-}
-
-footer h4 {
-  letter-spacing: 0.1rem;
-  padding: 0.5rem 0.5rem 1rem;
-}
-.footer-name {
-  color: var(--clr-primary-5);
+  a {
+    color: var(--clr-white);
+    font-size: 2rem;
+    margin: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  a:hover {
+    color: var(--clr-primary-5);
+  }
 }
 
 @media screen and (min-width: 776px) {
