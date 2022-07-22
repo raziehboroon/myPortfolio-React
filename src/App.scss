@@ -153,7 +153,7 @@ p {
   padding: 1rem 1rem 3rem 1rem;
 }
 .max-height {
-  height: calc(100vh - 13rem);
+  min-height: calc(100vh - 13rem);
   display: flex;
   align-items: center;
   justify-content: center;

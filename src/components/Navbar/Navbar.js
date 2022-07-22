@@ -32,7 +32,6 @@ const Navbar = () => {
           </Link>
         </div>
         <ul
-          id="menu"
           className={`${showDropDown && "navToggle"}`}
           onClick={() => setShowDropDown(!showDropDown)}
         >

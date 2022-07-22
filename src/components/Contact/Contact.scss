@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .contact {
-  min-height: calc(80vh - 5rem);
+  // min-height: calc(80vh - 5rem);
   /* padding-top: 0; */
   // background: linear-gradient(
   //     rgba(255, 255, 255, 0.7),
@@ -13,7 +13,7 @@
   // background-image: url("http://localhost:3000/assets/images/contact-us.jpg"); //worked!
   .contact-center {
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 1rem 1rem 1rem 1rem;
   }
 }

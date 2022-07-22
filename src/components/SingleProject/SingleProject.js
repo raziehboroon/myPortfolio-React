@@ -18,11 +18,8 @@ const SingleProject = ({ image, name, description, git, netlify }) => {
           <a href={git} target="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
-          <a href={netlify}>
-            <FontAwesomeIcon
-              icon={["fas", "external-link-alt"]}
-              target="noopener noreferrer"
-            />
+          <a href={netlify} target="noopener noreferrer">
+            <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
           </a>
         </div>
       </div>
