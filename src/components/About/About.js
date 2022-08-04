@@ -12,6 +12,7 @@ const About = ({ height }) => {
     "Bootstrap",
     "JavaScript (ES6+)",
     "React.js",
+    "Redux",
     "VSCode",
     "Git",
   ];
