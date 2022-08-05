@@ -28,7 +28,10 @@ const Navbar = () => {
           }}
         >
           <Link to="/">
-            <img src="/apple-touch-icon.png" alt="logo" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/apple-touch-icon.png`}
+              alt="logo"
+            />
           </Link>
         </div>
         <ul

@@ -19,7 +19,7 @@ export const data = [
   },
   {
     id: 3,
-    image: "/assets/images/MovieDB.png",
+    image: "/assets/images/MovieDB.jpg",
     name: "MovieDB App",
     description:
       "A responsive Movie Database developed by React.js and taking advatage of SASS, Context, React Router Dom V6, Material-ui, React Alice Carousel, axios and Themoviedb.org API.",
