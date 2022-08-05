@@ -1,9 +1,10 @@
 import "./Projects.scss";
 import React from "react";
 import { data } from "../../data.js";
+import { Link } from "react-router-dom";
 import SingleProject from "../SingleProject/SingleProject";
 
-const Projects = () => {
+const Projects = ({ height }) => {
   return (
     <section className="projects">
       <div className="section">
@@ -16,6 +17,11 @@ const Projects = () => {
             <SingleProject key={item.id} {...item} />
           ))}
         </div>
+        {height && (
+          <button className="home-btn">
+            <Link to="/">back to home</Link>
+          </button>
+        )}
       </div>
     </section>
   );

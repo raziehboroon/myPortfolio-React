@@ -172,11 +172,41 @@ p {
   }
 }
 
+.home-btn {
+  padding: 0.5rem 0.7rem;
+  margin: 1rem auto 0;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 0.15rem dashed var(--clr-primary-4);
+  border-radius: var(--radius);
+  transition: var(--transition);
+  a {
+    letter-spacing: 0.15rem;
+    color: var(--clr-primary-4);
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: var(--clr-primary-4);
+    a {
+      color: #fff;
+    }
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
 @media screen and (min-width: 776px) {
   .section {
     padding: 1rem 1rem 3rem 1rem;
   }
   .profile-img {
     display: block;
+  }
+  .home-btn {
+    display: none;
   }
 }

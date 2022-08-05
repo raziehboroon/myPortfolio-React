@@ -1,6 +1,7 @@
 import "./Contact.scss";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Contact = ({ height }) => {
   return (
@@ -31,6 +32,11 @@ const Contact = ({ height }) => {
             can also reach me through this number<span> +98-***-****</span>
           </h4>
         </div>
+        {height && (
+          <button className="home-btn">
+            <Link to="/">back to home</Link>
+          </button>
+        )}
       </div>
     </section>
   );

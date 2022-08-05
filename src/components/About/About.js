@@ -2,6 +2,7 @@ import "./About.scss";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ImageFrame from "../ImageFrame/ImageFrame";
+import { Link } from "react-router-dom";
 
 const About = ({ height }) => {
   // const height = props.height;
@@ -59,6 +60,11 @@ const About = ({ height }) => {
             </ul>
           </div>
         </div>
+        {height && (
+          <button className="home-btn">
+            <Link to="/">back to home</Link>
+          </button>
+        )}
       </div>
     </section>
   );
