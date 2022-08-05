@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://raziehboroon.github.io/myPortfolio-React",
+  "homepage": "https://raziehboroon.github.io/raziehboroon.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
