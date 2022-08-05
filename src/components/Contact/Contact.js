@@ -10,7 +10,7 @@ const Contact = ({ height }) => {
         background: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), URL(${process.env.PUBLIC_URL}/assets/images/contact-us.jpg) center/cover scroll no-repeat`,
       }}
     >
-      <div className="contact-center">
+      <div className="section contact-center">
         <div className="title">
           <h2>let's get in touch</h2>
           <div className="title-underline"></div>

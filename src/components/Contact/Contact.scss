@@ -11,10 +11,10 @@
 
   //above image url path not working!
   // background-image: url("http://localhost:3000/assets/images/contact-us.jpg"); //worked!
-  .contact-center {
-    max-width: var(--max-width);
-    padding: 1rem 1rem 1rem 1rem;
-  }
+}
+.contact-center {
+  max-width: var(--max-width);
+  padding: 1rem;
 }
 
 .contact-container {
@@ -23,6 +23,7 @@
   justify-content: center;
   min-height: 100%;
   margin-top: 2rem;
+  padding: 0 1rem;
   h4 {
     color: var(--clr-grey-1);
     letter-spacing: 0.1rem;

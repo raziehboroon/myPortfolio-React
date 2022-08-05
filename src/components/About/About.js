@@ -6,8 +6,8 @@ import ImageFrame from "../ImageFrame/ImageFrame";
 const About = ({ height }) => {
   // const height = props.height;
   const skills = [
-    "HTML5",
-    "CSS3",
+    "HTML",
+    "CSS",
     "SASS",
     "Bootstrap",
     "JavaScript (ES6+)",
