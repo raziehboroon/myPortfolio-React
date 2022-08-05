@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/raziehboroon.github.io/static/css/main.f1c4ee61.css",
-    "main.js": "/raziehboroon.github.io/static/js/main.0c0e9056.js",
+    "main.js": "/raziehboroon.github.io/static/js/main.a44a81b6.js",
     "index.html": "/raziehboroon.github.io/index.html",
     "main.f1c4ee61.css.map": "/raziehboroon.github.io/static/css/main.f1c4ee61.css.map",
-    "main.0c0e9056.js.map": "/raziehboroon.github.io/static/js/main.0c0e9056.js.map"
+    "main.a44a81b6.js.map": "/raziehboroon.github.io/static/js/main.a44a81b6.js.map"
   },
   "entrypoints": [
     "static/css/main.f1c4ee61.css",
-    "static/js/main.0c0e9056.js"
+    "static/js/main.a44a81b6.js"
   ]
 }
