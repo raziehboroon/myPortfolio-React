@@ -35,7 +35,7 @@ const Contact = ({ height }) => {
         </div>
         {height && (
           <button className="home-btn">
-            <Link to="/">home</Link>
+            <Link to="/">back to home</Link>
           </button>
         )}
       </div>
