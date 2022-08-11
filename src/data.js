@@ -4,7 +4,7 @@ export const data = [
     image: "/assets/images/Architecture.jpg",
     name: "Architect Portfolio",
     description:
-      "Under Development - A responsive bilingual Front End of an architect portfolio, developed by React.js and taking advantage of SASS, Context, React Router Dom, Material-ui, i18next, Styled-Components with static experimental data.",
+      "Under Development - A responsive bilingual Front End of an architect portfolio, developed by React.js and taking advantage of SASS, Context, React Router Dom, Material-ui, i18next, Swiper, Styled-Components with static experimental data.",
     git: "https://github.com/raziehboroon/architecture-portfolio-website",
     netlify: "https://rboroon-aseyyedi.netlify.app/",
   },
