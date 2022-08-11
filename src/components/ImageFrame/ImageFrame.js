@@ -1,6 +1,7 @@
 import "./ImageFrame.scss";
 import React from "react";
 import styled from "styled-components";
+
 const ImageFrame = (props) => {
   // console.log(props.alignment === "left");
   return (
@@ -36,7 +37,8 @@ const StyledFrame = styled.div`
     bottom: -12%;
     width: 100%;
     height: 100%;
-    border: 3px solid var(--clr-primary-2);
+    ${"" /* $clr-primary-2 */}
+    border: 3px solid hsl(185, 84%, 25%);
     /* background: linear-gradient(to bottom right, var(--clr-primary-5), #222); */
     border-radius: 0.3rem;
     z-index: -10;

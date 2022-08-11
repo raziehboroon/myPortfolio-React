@@ -1,7 +1,9 @@
 import "./Banner.scss";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// Component(s)
 import ImageFrame from "../ImageFrame/ImageFrame";
+// Icon(s)
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -16,19 +18,19 @@ const Banner = () => {
               href="https://www.linkedin.com/in/razieh-boroon/"
               target="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "linkedin"]} />
+              <FaLinkedin />
             </a>
             <a
               href="https://github.com/raziehboroon"
               target="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "github"]} />
+              <FaGithub />
             </a>
             <a
               href="https://twitter.com/raziehboroon"
               target="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={["fab", "twitter"]} />
+              <FaTwitter />
             </a>
           </div>
         </div>

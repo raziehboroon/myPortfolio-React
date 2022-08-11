@@ -1,11 +1,12 @@
 import "./About.scss";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ImageFrame from "../ImageFrame/ImageFrame";
 import { Link } from "react-router-dom";
+// Component(s)
+import ImageFrame from "../ImageFrame/ImageFrame";
+//Icon(s)
+import { AiFillCaretRight } from "react-icons/ai";
 
 const About = ({ height }) => {
-  // const height = props.height;
   const skills = [
     "HTML",
     "CSS",
@@ -38,22 +39,15 @@ const About = ({ height }) => {
               <h2>about</h2>
               <div className="title-underline"></div>
             </div>
-            <p data-aos="fade-up" data-aos-duration="1000">
+            <p>
               Hello! My name is Razieh, I have master degree in Information
               Technology Engineering. I'm able to work with the following
               technologies:
             </p>
-            <ul
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="100"
-            >
+            <ul>
               {skills.map((skill, index) => (
                 <li key={index}>
-                  <FontAwesomeIcon
-                    icon={["fas", "caret-right"]}
-                    className="icon"
-                  />
+                  <AiFillCaretRight className="icon" />
                   {skill}
                 </li>
               ))}

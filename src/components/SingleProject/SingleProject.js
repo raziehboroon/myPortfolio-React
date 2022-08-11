@@ -1,6 +1,7 @@
 import "./SingleProject.scss";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// Icons
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const SingleProject = ({ image, name, description, git, netlify }) => {
   return (
@@ -16,10 +17,10 @@ const SingleProject = ({ image, name, description, git, netlify }) => {
         </div>
         <div className="project-links icons">
           <a href={git} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={["fab", "github"]} />
+            <FaGithub />
           </a>
           <a href={netlify} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
+            <FaExternalLinkAlt />
           </a>
         </div>
       </div>

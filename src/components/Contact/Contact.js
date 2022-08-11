@@ -1,7 +1,8 @@
 import "./Contact.scss";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+// Icon(s)
+import { FiAtSign } from "react-icons/fi";
 
 const Contact = ({ height }) => {
   return (
@@ -23,7 +24,7 @@ const Contact = ({ height }) => {
               <span>
                 {" "}
                 Razieh.Boroon
-                <FontAwesomeIcon icon={["fas", "at"]} />
+                <FiAtSign />
                 gmail.com
               </span>
             </a>
@@ -34,7 +35,7 @@ const Contact = ({ height }) => {
         </div>
         {height && (
           <button className="home-btn">
-            <Link to="/">back to home</Link>
+            <Link to="/">home</Link>
           </button>
         )}
       </div>

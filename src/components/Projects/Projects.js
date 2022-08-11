@@ -1,7 +1,9 @@
 import "./Projects.scss";
 import React from "react";
-import { data } from "../../data.js";
 import { Link } from "react-router-dom";
+// Project Details info
+import { data } from "../../data.js";
+// Component(s)
 import SingleProject from "../SingleProject/SingleProject";
 
 const Projects = ({ height }) => {

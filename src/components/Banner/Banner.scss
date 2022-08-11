@@ -1,6 +1,6 @@
 @import "../../App.scss";
 .banner {
-  background-color: var(--clr-primary-10);
+  background-color: $clr-primary-10;
   height: calc(100% - 5rem);
   width: 100vw;
 }
@@ -10,7 +10,7 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: space-evenly;
-  max-width: var(--max-width);
+  max-width: $max-width;
   margin: 0 auto;
   height: calc(100vh - 5rem);
 }

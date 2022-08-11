@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .about {
-  background-color: var(--clr-grey-10);
+  background-color: $clr-grey-10;
   /* min-height: 100vh; */
 }
 
@@ -33,7 +33,7 @@
     list-style-type: none;
     .icon {
       margin-right: 0.5rem;
-      color: var(--clr-primary-5);
+      color: $clr-primary-5;
     }
   }
 }
