@@ -14,6 +14,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     max-width: $max-width;
+    .nav-logo {
+      height: 3rem;
+      width: 3rem;
+    }
   }
 }
 
@@ -46,20 +50,16 @@ nav ul {
     font-weight: bold;
     letter-spacing: $spacing;
     transition: backgroud 1s ease, padding 1s ease, color 1s ease;
+    &:hover {
+      /* color: var(--navActive); */
+      padding-left: 2rem;
+      background-color: $clr-primary-9;
+    }
   }
-  a:hover {
-    /* color: $navActive; */
-    padding-left: 2rem;
-    background-color: $clr-primary-9;
-  }
-}
-
-.nav-logo {
-  height: 3rem;
-  width: 3rem;
-  .img {
-    width: 100%;
-    height: 100%;
+  &.navToggle {
+    // background-color: $clr-grey-10;
+    height: 15rem;
+    /* height: 240px; */
   }
 }
 
@@ -71,37 +71,33 @@ nav ul {
   align-items: center;
   justify-content: center;
   position: relative;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-.navBtn .navBtn-burger {
+.navBtn-burger {
   width: 35px;
   height: 5px;
   border-radius: 2px;
   background-color: $clr-primary-5;
   transition: transform 0.3s ease-in-out;
-}
-
-.navBtn-burger::before,
-.navBtn-burger::after {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 5px;
-  border-radius: 2px;
-  background-color: $clr-primary-5;
-  transition: transform 0.3s ease-in-out;
-}
-
-.navBtn .navBtn-burger::before {
-  transform: translateY(-12px);
-}
-
-.navBtn .navBtn-burger::after {
-  transform: translateY(12px);
-}
-
-.navBtn:hover {
-  cursor: pointer;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: $clr-primary-5;
+    transition: transform 0.3s ease-in-out;
+  }
+  &::before {
+    transform: translateY(-12px);
+  }
+  &::after {
+    transform: translateY(12px);
+  }
 }
 
 .navBtn.navToggle .navBtn-burger {
@@ -118,14 +114,6 @@ nav ul {
 }
 
 @media screen and (min-width: 776px) {
-  // nav ul.navToggle {
-  //   background-color: $clr-primary-5;
-  //   height: 15rem;
-  //   /* height: 240px; */
-  // }
-  .navBtn {
-    display: none;
-  }
   nav {
     background-color: $clr-primary-10;
     ul {
@@ -145,6 +133,9 @@ nav ul {
           padding-left: 20px;
         }
       }
+    }
+    .navBtn {
+      display: none;
     }
   }
 }

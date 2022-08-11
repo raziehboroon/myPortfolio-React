@@ -5,6 +5,7 @@ import { goToTop } from "../../helper/functions";
 
 const Navbar = () => {
   const [showDropDown, setShowDropDown] = useState(false);
+
   const nav = useRef();
   useEffect(() => {
     window.addEventListener("scroll", () => {
