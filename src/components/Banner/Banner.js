@@ -42,7 +42,7 @@ const Banner = () => {
           />
         </div> */}
         <ImageFrame
-          src={`${process.env.PUBLIC_URL}/assets/images/RaziehBoroon.jpg`}
+          src={`${process.env.PUBLIC_URL}/assets/images/RaziehBoroon.JPG`}
           name="myPicture"
           alignment={true}
         />
