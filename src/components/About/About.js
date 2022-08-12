@@ -2,7 +2,7 @@ import "./About.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 // Component(s)
-import ImageFrame from "../ImageFrame/ImageFrame";
+// import ImageFrame from "../ImageFrame/ImageFrame";
 //Icon(s)
 import { AiFillCaretRight } from "react-icons/ai";
 
@@ -23,15 +23,15 @@ const About = ({ height }) => {
       <div className="section">
         <div className="about-content">
           <div className="about-image">
-            {/* <img
-              src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
-              alt="keyboard"
-            /> */}
-            <ImageFrame
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/about.jpg`}
+              alt="about"
+            />
+            {/* <ImageFrame
               src={`${process.env.PUBLIC_URL}/assets/images/keyboard.jpg`}
               name="keyboard"
               alignment={false}
-            />
+            /> */}
           </div>
           <div className="about-text">
             {/* title */}

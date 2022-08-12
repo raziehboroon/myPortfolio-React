@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .about {
-  background-color: $clr-grey-10;
+  // background-color:;
   /* min-height: 100vh; */
 }
 
@@ -45,5 +45,6 @@
   }
   .about-image {
     display: block;
+    max-width: 400px;
   }
 }
