@@ -15,7 +15,7 @@ const About = ({ height }) => {
     "JavaScript (ES6+)",
     "React.js",
     "Redux",
-    "VSCode",
+    "VS Code",
     "Git",
   ];
   return (
