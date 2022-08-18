@@ -13,7 +13,7 @@ export const data = [
     image: "/assets/images/Store.png",
     name: "Online Store",
     description:
-      "A responsive online store developed by React.js and by taking advatage of SASS, Reducer, Context, React Router Dom V5.2, Prop-Types, Paypal Sandbox, axios and Fakesstore.com API. By the way, this app also has mobile first design.",
+      "A responsive online store developed by React.js and by taking advantage of SASS, Reducer, Context, React Router Dom V5.2, Prop-Types, Paypal Sandbox, axios and Fakesstore.com API. By the way, this app also has mobile first design.",
     git: "https://github.com/raziehboroon/store-project.git",
     netlify: "https://rboroon-store.netlify.app/",
   },
@@ -22,7 +22,7 @@ export const data = [
     image: "/assets/images/MovieDB.jpg",
     name: "MovieDB App",
     description:
-      "A responsive Movie Database developed by React.js and taking advatage of SASS, Context, React Router Dom V6, Material-ui, React Alice Carousel, axios and Themoviedb.org API.",
+      "A responsive Movie Database developed by React.js and taking advantage of SASS, Context, React Router Dom V6, Material-ui, React Alice Carousel, axios and Themoviedb.org API.",
     git: "https://github.com/raziehboroon/react-moviedb",
     netlify: "https://rboroon-moviedb-app.netlify.app/",
   },
