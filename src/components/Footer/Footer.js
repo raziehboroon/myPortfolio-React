@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <h4>
         <span>&copy;{getDate()}</span>
-        <span className="footer-name"> Razieh Boroon.</span> all rights reserved
+        <span className="footer-name"> Razieh Boroon.</span> All Rights Reserved
       </h4>
     </footer>
   );

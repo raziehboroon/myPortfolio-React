@@ -10,7 +10,7 @@ const Banner = () => {
     <header className="banner">
       <div className="banner-center section">
         <div className="banner-info">
-          <h4>Hi, my name is</h4>
+          <h4>Hi, My Name Is</h4>
           <h1>Razieh Boroon</h1>
           <h4>I'm a Front-End Developer.</h4>
           <div className="social-links icons">

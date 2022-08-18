@@ -30,7 +30,7 @@ const Contact = ({ height }) => {
             </a>
             <br />
             <br />
-            can also reach me through this number<span> +98-***-****</span>
+            Can also reach me through this number<span> +98-***-****</span>
           </h4>
         </div>
         {height && (

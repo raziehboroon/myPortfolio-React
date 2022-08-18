@@ -39,7 +39,7 @@ h2,
 h3,
 h4 {
   letter-spacing: $spacing;
-  text-transform: capitalize;
+  // text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: $ff-primary;
@@ -102,7 +102,7 @@ p {
 }
 
 .title {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.3rem;
   color: $clr-grey-1;
   display: flex;
@@ -124,6 +124,7 @@ p {
 .icons a {
   color: $clr-grey-1;
   transition: color 0.3s ease-in-out;
+  padding: 0.4rem 0.4rem 0.2rem;
   &:hover {
     color: $clr-primary-4;
   }

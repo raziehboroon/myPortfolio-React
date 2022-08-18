@@ -8,7 +8,7 @@ import SingleProject from "../SingleProject/SingleProject";
 
 const Projects = ({ height }) => {
   return (
-    <section className="projects">
+    <section className={`projects ${height && "max-height"}`}>
       <div className="section">
         <div className="title">
           <h2>Project</h2>
